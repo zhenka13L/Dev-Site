@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+     background:#f5f7fb;
+     color: #333;
+}
+
+/*NAVBAR*/
+
+header {
+    background:white;
+    box-shadow: 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.Logo {
+    color: #4f46e5;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4f46e5;
+}
